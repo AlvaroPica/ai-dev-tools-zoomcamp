@@ -1,0 +1,15 @@
+[project]
+name = "ai-dev-tools-zoomcamp"
+version = "0.1.0"
+description = "AI Dev Tools Zoomcamp workspace"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "django>=5.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "pytest-django>=4.7.0",
+]
